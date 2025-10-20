@@ -124,7 +124,7 @@ Recommended is 0.5 (default)
 Add to startup.sh
 
 #!/bin/bash
-cd ~/discord-nsfw-detector
+cd ~/opennsfw2
 source nsfw-env/bin/activate
 python3 bot.py
 
