@@ -22,7 +22,6 @@ logger = logging.getLogger("ImageModerator")
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
-intents.moderation = True
 
 class ModerationData:
     """Handles data persistence for moderation settings"""
